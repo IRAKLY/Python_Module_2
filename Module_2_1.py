@@ -14,9 +14,16 @@ third = int(input('Введите третье число: '))
 
 if first == second and first == third:
     print('Количество одинаковых чисел: 3')
-elif first == second or first == third:
-    print('Количество одинаковых чисел: 2')
-elif first == second or second == third:
-    print('Количество одинаковых чисел: 2')
-else:
+elif first != second and first != third and second != third:
     print('Количество одинаковых чисел: 0')
+else:
+    print('Количество одинаковых чисел: 2')
+
+# if first == second and first == third:
+#     print('Количество одинаковых чисел: 3')
+# elif first == second or first == third:
+#     print('Количество одинаковых чисел: 2')
+# elif first == second or second == third:
+#     print('Количество одинаковых чисел: 2')
+# else:
+#     print('Количество одинаковых чисел: 0')
